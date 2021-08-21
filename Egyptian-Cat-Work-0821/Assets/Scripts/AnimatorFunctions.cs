@@ -8,10 +8,10 @@ public class AnimatorFunctions : MonoBehaviour
 	public bool disableOnce;
 
 	void PlaySound(AudioClip whichSound){
-		if(!disableOnce){
+		//if(!disableOnce){
 			menuButtonController.audioSource.PlayOneShot (whichSound);
-		}else{
-			disableOnce = false;
-		}
+		//}else{
+			//disableOnce = false;
+		//}
 	}
 }	
