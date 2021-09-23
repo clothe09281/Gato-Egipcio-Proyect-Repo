@@ -5,7 +5,7 @@ using System.Collections;
 /// 攝影機追蹤玩家
 /// 玩家打擊到物件的打擊效果
 /// </summary>
-public class CameraControl : MonoBehaviour
+public class CameraController : MonoBehaviour
 {
     #region 欄位
     [Header("追蹤速度"), Range(0, 100)]

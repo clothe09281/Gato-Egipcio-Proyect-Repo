@@ -74,7 +74,7 @@ public class BaseEnemy : MonoBehaviour
         ani = GetComponent<Animator>();
         aud = GetComponent<AudioSource>();
 
-        player = GameObject.Find("主角").GetComponent<Player>();
+        player = GameObject.Find("主角貓").GetComponent<Player>();
         #endregion
 
         #region 初始值設定
@@ -228,7 +228,7 @@ public class BaseEnemy : MonoBehaviour
         // 查詢語言 LinQ：可以查詢陣列資料，例如：是否包含地板、是否有資料等等……
 
         // 碰到地板、跳台、主角皆不會轉向
-        hitResult = hits.Where(x => x.name != "地板" && x.name != "跳台" && x.name != "主角" && x.name != "可穿透地板").ToArray();
+        hitResult = hits.Where(x => x.name != "地板" && x.name != "跳台" && x.name != "主角貓" && x.name != "可穿透地板").ToArray();
 
         // 陣列為空值：陣列數量為零
         // 如果 碰撞數量為零 (前方沒有地方站立) 或者 碰撞結果大於零 (前方有障礙物) 都要轉向
@@ -286,7 +286,7 @@ public class BaseEnemy : MonoBehaviour
     protected virtual void AttackMethod()
     {
         timerAttack = 0;
-        ani.SetTrigger("攻擊觸發");
+        ani.SetTrigger("攻擊觸發1");
         // print("攻擊");
     }
 

@@ -16,7 +16,7 @@ public class Player : MonoBehaviour
     [Header("重力"), Range(0.01f, 1)]
     public float gravity = 0.1f;
     [Header("攻擊冷卻"), Range(0, 5)]
-    public float cd = 2;
+    public float cd = 0.5f;
 
     /// <summary>
     /// 攻擊計時器
