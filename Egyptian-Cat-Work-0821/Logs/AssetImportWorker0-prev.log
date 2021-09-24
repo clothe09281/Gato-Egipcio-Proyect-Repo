@@ -15,11 +15,11 @@ D:/jia_hui/Unity_EgyptCat/Gato-Egipcio-Proyect-Repo/Egyptian-Cat-Work-0821
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63667
+51911
 Successfully changed project path to: D:/jia_hui/Unity_EgyptCat/Gato-Egipcio-Proyect-Repo/Egyptian-Cat-Work-0821
 D:/jia_hui/Unity_EgyptCat/Gato-Egipcio-Proyect-Repo/Egyptian-Cat-Work-0821
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 70.24 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 77.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -37,37 +37,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001410 seconds.
+Registered in 0.001513 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 65.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.222 seconds
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.003954 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 75.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.513 seconds
 Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003915 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.683 seconds
+Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1948 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 81.3 MB.
 System memory in use after: 81.4 MB.
 
 Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 2354.
-Total: 7.766767 ms (FindLiveObjects: 0.217519 ms CreateObjectMapping: 0.093400 ms MarkObjects: 7.350347 ms  DeleteObjects: 0.102088 ms)
+Total: 8.914871 ms (FindLiveObjects: 0.274304 ms CreateObjectMapping: 0.192385 ms MarkObjects: 8.342371 ms  DeleteObjects: 0.103329 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -81,50 +81,1809 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/GameScene.unity
-  artifactKey: Guid(fc15b829e7edd2e48824429d570d1566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene.unity using Guid(fc15b829e7edd2e48824429d570d1566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73fd7fb30d1356be54580c2afc4023a') in 0.030309 seconds 
+  path: Assets/Scenes/GameScene3.unity
+  artifactKey: Guid(3f474677f0c178c44b8f7e84273f2154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene3.unity using Guid(3f474677f0c178c44b8f7e84273f2154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a00a1cf5b120be4f8511ef92a45eda0') in 0.031263 seconds 
+  Import took 0.040984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001181 seconds.
+  path: Assets/Scenes/GameScene2.unity
+  artifactKey: Guid(88f91f5cdc4f6a8408eb21eeb999b77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene2.unity using Guid(88f91f5cdc4f6a8408eb21eeb999b77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9baf28af82a660936a961b0b3f7e0fd0') in 0.016690 seconds 
+  Import took 0.021987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1534.273907 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait1.png
+  artifactKey: Guid(68fb59eac6a88ae40bbef78a901185ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait1.png using Guid(68fb59eac6a88ae40bbef78a901185ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a844ee72378e08d874d6ae91d7d5c489') in 0.741986 seconds 
+  Import took 0.763766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait4.png
+  artifactKey: Guid(053cec4968e980e44ae32313e8be93a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait4.png using Guid(053cec4968e980e44ae32313e8be93a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db1b36818223de5c15d6319fb26dbf1') in 0.101614 seconds 
+  Import took 0.135362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk4.png
+  artifactKey: Guid(27f0b3cae071e924b8ea1a52ac7837d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk4.png using Guid(27f0b3cae071e924b8ea1a52ac7837d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a25b463feae658e3cacf749c85d8d4e') in 0.024190 seconds 
+  Import took 0.028728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000822 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk5.png
+  artifactKey: Guid(58896e71e7a05274a85bf7af4f0ab0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk5.png using Guid(58896e71e7a05274a85bf7af4f0ab0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf0d5cfa33881ab2ee30134407585fd') in 0.023963 seconds 
+  Import took 0.040243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait3.png
+  artifactKey: Guid(23da21f9e27dd2348a08193811c38cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait3.png using Guid(23da21f9e27dd2348a08193811c38cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359ab528ce4c5a576d4dac9233074ba2') in 0.026972 seconds 
+  Import took 0.031997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait5.png
+  artifactKey: Guid(0c328e9d4d5466f46add1b075e007b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait5.png using Guid(0c328e9d4d5466f46add1b075e007b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21716adff3993426401765dad2c325e') in 0.024837 seconds 
+  Import took 0.031349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk1.png
+  artifactKey: Guid(a43f11c60dd730247b18b414966ba357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk1.png using Guid(a43f11c60dd730247b18b414966ba357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c7fee3689f3beae0213435aa7e6d1b') in 0.026348 seconds 
+  Import took 0.036307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk3.png
+  artifactKey: Guid(a11ef15bee4557f41a3b2c268a610686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk3.png using Guid(a11ef15bee4557f41a3b2c268a610686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231ba092001ed452bd8554ee34ba0f31') in 0.028640 seconds 
+  Import took 0.050941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait6.png
+  artifactKey: Guid(dacd41ae7bd50474a81b3fd731700c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait6.png using Guid(dacd41ae7bd50474a81b3fd731700c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78052035000d133b33e792084fbd471') in 0.026447 seconds 
+  Import took 0.031751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk6.png
+  artifactKey: Guid(8a66a493c6498fd4cb3597589129ceed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk6.png using Guid(8a66a493c6498fd4cb3597589129ceed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce03846894ab97336ba1ce995aebce2') in 0.026966 seconds 
+  Import took 0.040212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait2.png
+  artifactKey: Guid(efa78ca00d4bd7e45ba5318c0f0bc347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait2.png using Guid(efa78ca00d4bd7e45ba5318c0f0bc347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b9ac332b18ba564caa6b06e10651e4') in 0.027090 seconds 
+  Import took 0.034549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/Ninja Cat Game Asset.png
+  artifactKey: Guid(f818f67b50778dd428cba0857c262db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/Ninja Cat Game Asset.png using Guid(f818f67b50778dd428cba0857c262db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49416e973f5d459cfb8454e03d25bd4b') in 0.043590 seconds 
+  Import took 0.055644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk2.png
+  artifactKey: Guid(8a1cbee5cad8f004aac952eb79c6e53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk2.png using Guid(8a1cbee5cad8f004aac952eb79c6e53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d7b7f99af6fe75201c1dfc66e02086') in 0.025947 seconds 
+  Import took 0.031237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 467.372925 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait1.png
+  artifactKey: Guid(68fb59eac6a88ae40bbef78a901185ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait1.png using Guid(68fb59eac6a88ae40bbef78a901185ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0f5bd9f488b1786c9def8bd459c343') in 0.024338 seconds 
+  Import took 0.030480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait4.png
+  artifactKey: Guid(053cec4968e980e44ae32313e8be93a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait4.png using Guid(053cec4968e980e44ae32313e8be93a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc431596dd5222cb7d6bb2b105df23f4') in 0.020922 seconds 
+  Import took 0.025894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk4.png
+  artifactKey: Guid(27f0b3cae071e924b8ea1a52ac7837d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk4.png using Guid(27f0b3cae071e924b8ea1a52ac7837d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57dd88bf4c8126c23e74366b98b1e5e4') in 0.023224 seconds 
+  Import took 0.029650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk5.png
+  artifactKey: Guid(58896e71e7a05274a85bf7af4f0ab0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk5.png using Guid(58896e71e7a05274a85bf7af4f0ab0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0535b6622739da4a71e6d459061df7c') in 0.021092 seconds 
+  Import took 0.026880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait3.png
+  artifactKey: Guid(23da21f9e27dd2348a08193811c38cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait3.png using Guid(23da21f9e27dd2348a08193811c38cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe157463a8254530e3caa7cc60da69f') in 0.020513 seconds 
+  Import took 0.025397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait5.png
+  artifactKey: Guid(0c328e9d4d5466f46add1b075e007b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait5.png using Guid(0c328e9d4d5466f46add1b075e007b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef84fe9227cb9290dd9448cbbc8a832e') in 0.026966 seconds 
+  Import took 0.032366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk1.png
+  artifactKey: Guid(a43f11c60dd730247b18b414966ba357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk1.png using Guid(a43f11c60dd730247b18b414966ba357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b24b6d44cd66a80189a16ca5209f89') in 0.020220 seconds 
+  Import took 0.025242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk3.png
+  artifactKey: Guid(a11ef15bee4557f41a3b2c268a610686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk3.png using Guid(a11ef15bee4557f41a3b2c268a610686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283b239cc81644db37f91903997adf60') in 0.020076 seconds 
+  Import took 0.024624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait6.png
+  artifactKey: Guid(dacd41ae7bd50474a81b3fd731700c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait6.png using Guid(dacd41ae7bd50474a81b3fd731700c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c961cc8ded1c32e63ec84f740fb5a17d') in 0.018972 seconds 
+  Import took 0.025012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk6.png
+  artifactKey: Guid(8a66a493c6498fd4cb3597589129ceed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk6.png using Guid(8a66a493c6498fd4cb3597589129ceed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4f7055b2408cd908fc2e81d6114384') in 0.028439 seconds 
+  Import took 0.048202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait2.png
+  artifactKey: Guid(efa78ca00d4bd7e45ba5318c0f0bc347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait2.png using Guid(efa78ca00d4bd7e45ba5318c0f0bc347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f32d7e3a7282da9e9b0dfa1a0128175') in 0.021631 seconds 
+  Import took 0.025933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/Ninja Cat Game Asset.png
+  artifactKey: Guid(f818f67b50778dd428cba0857c262db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/Ninja Cat Game Asset.png using Guid(f818f67b50778dd428cba0857c262db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a6fc71cd310dc58cff7eac5bacb81a') in 0.027686 seconds 
+  Import took 0.032073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk2.png
+  artifactKey: Guid(8a1cbee5cad8f004aac952eb79c6e53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk2.png using Guid(8a1cbee5cad8f004aac952eb79c6e53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ffdf44fc50180d20690f1b2596d136') in 0.022502 seconds 
+  Import took 0.030962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.217552 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatStart2.png
+  artifactKey: Guid(8733e04abfd694a449d31578c4f35b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatStart2.png using Guid(8733e04abfd694a449d31578c4f35b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c08505498bbbcf571092e797a08a48') in 0.025735 seconds 
+  Import took 0.030268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatStart4.png
+  artifactKey: Guid(b09d8ff35bc67f34297ff8e125774bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatStart4.png using Guid(b09d8ff35bc67f34297ff8e125774bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0cab03df9485c77cc3fdd6172e108f8') in 0.025978 seconds 
+  Import took 0.030278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatStart3.png
+  artifactKey: Guid(d37e82bcc3cd524488147b32c15d6a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatStart3.png using Guid(d37e82bcc3cd524488147b32c15d6a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa48382183ecae5b0dc8a42fa6671ad') in 0.285897 seconds 
+  Import took 0.291608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint5.png
+  artifactKey: Guid(0b7802c29df44f94d98b88527159234c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint5.png using Guid(0b7802c29df44f94d98b88527159234c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79197984b1272510a4594560b8284d5') in 0.048046 seconds 
+  Import took 0.068303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatStart1.png
+  artifactKey: Guid(164a40ab44aceca46a9e4df0610751d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatStart1.png using Guid(164a40ab44aceca46a9e4df0610751d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544c493771039f0d9f8fae7d2dd646d4') in 0.028101 seconds 
+  Import took 0.039869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatStart5.png
+  artifactKey: Guid(248ef50acf3d52a4e8a376f615ac4ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatStart5.png using Guid(248ef50acf3d52a4e8a376f615ac4ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd4eb8f35b360e09b49e929daed3bfc') in 0.029147 seconds 
+  Import took 0.034867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint4.png
+  artifactKey: Guid(f012a752979ea7a42a6a3222f8cacafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint4.png using Guid(f012a752979ea7a42a6a3222f8cacafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564626834d34ec5c19740a12716e7591') in 0.034563 seconds 
+  Import took 0.039907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint6.png
+  artifactKey: Guid(2f700f3f881f025469538315fe1b1c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint6.png using Guid(2f700f3f881f025469538315fe1b1c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff1bbfd9e5f541e864c9bfdf158b915') in 0.039356 seconds 
+  Import took 0.044529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.487342 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump6.png
+  artifactKey: Guid(3b0d867fc0ee6514cb4e74d1be3b5455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump6.png using Guid(3b0d867fc0ee6514cb4e74d1be3b5455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4c3f695bc8abf4b2c53733edd9e289') in 0.031991 seconds 
+  Import took 0.039790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump5.png
+  artifactKey: Guid(a7f654876c990674fb4a6cee95ab3f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump5.png using Guid(a7f654876c990674fb4a6cee95ab3f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563c826ac10c49e28d574ee5745c9bc5') in 0.031250 seconds 
+  Import took 0.036152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint2.png
+  artifactKey: Guid(b1439b60f315e484fa5b54c795e14bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint2.png using Guid(b1439b60f315e484fa5b54c795e14bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7a7f5a02fc8cdcef7636c63a55c80f') in 0.038102 seconds 
+  Import took 0.043382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie9.png
+  artifactKey: Guid(9b5ed3e7c735f9b40974cbe4c3829998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie9.png using Guid(9b5ed3e7c735f9b40974cbe4c3829998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6cabf9cc8f73e9eabf61e56bf1d58a0') in 0.026173 seconds 
+  Import took 0.031613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001134 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump4.png
+  artifactKey: Guid(1bd95a279b139d042b744b7584c4ae0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump4.png using Guid(1bd95a279b139d042b744b7584c4ae0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75dde62df006121d43bdf4cd403d0fd0') in 0.026211 seconds 
+  Import took 0.031534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie5.png
+  artifactKey: Guid(76084c4d0b84e37479c4f09fec69d76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie5.png using Guid(76084c4d0b84e37479c4f09fec69d76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1fb3b2b67f7200418efb6ffb1a0898') in 0.027530 seconds 
+  Import took 0.032509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie4.png
+  artifactKey: Guid(5f984c1bac31a5842ae5004e8ae0317c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie4.png using Guid(5f984c1bac31a5842ae5004e8ae0317c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6b9dcb1e7a490de986bf6a82aee243') in 0.025565 seconds 
+  Import took 0.031155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie1.png
+  artifactKey: Guid(e08b4b91a6e3dac4da360e1c4fab2a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie1.png using Guid(e08b4b91a6e3dac4da360e1c4fab2a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48a1b9d521157dd3e872d59ddb99941') in 0.026214 seconds 
+  Import took 0.031894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump2.png
+  artifactKey: Guid(7ba67a773b4dcdc4cbe7b52298ab77a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump2.png using Guid(7ba67a773b4dcdc4cbe7b52298ab77a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46acc6705b7a504d36af17fc250f72c') in 0.026003 seconds 
+  Import took 0.031689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint3.png
+  artifactKey: Guid(17de73eb3a1b20f4d806a93c6666adde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint3.png using Guid(17de73eb3a1b20f4d806a93c6666adde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f8d520b6446d21fa3ef9de1fe0ddd4') in 0.025373 seconds 
+  Import took 0.032072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000657 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie6.png
+  artifactKey: Guid(9367850e27ba2744e8cfaca5c0e0aee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie6.png using Guid(9367850e27ba2744e8cfaca5c0e0aee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3abc9a78d41454731e7e7bff2dbf3773') in 0.026202 seconds 
+  Import took 0.038097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump3.png
+  artifactKey: Guid(bfa7ad4637d9b234cb997fe34171a6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump3.png using Guid(bfa7ad4637d9b234cb997fe34171a6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0afc4513ac41ae72f1439546eec7bc27') in 0.025626 seconds 
+  Import took 0.035819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatAttack4.png
+  artifactKey: Guid(a816317e8cf75684f9e6ae0db71ede88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatAttack4.png using Guid(a816317e8cf75684f9e6ae0db71ede88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d37b6077a91a3533190a3b919801ff0') in 0.024935 seconds 
+  Import took 0.036907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint1.png
+  artifactKey: Guid(5740272d4fdd38f40ba97289b65774a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint1.png using Guid(5740272d4fdd38f40ba97289b65774a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664c1973057de8c472ca3ab5ac6053f6') in 0.027191 seconds 
+  Import took 0.032873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie10.png
+  artifactKey: Guid(ce234f3d85beacc41abb0e0fbe01ab40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie10.png using Guid(ce234f3d85beacc41abb0e0fbe01ab40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8d49ff936f935002a881566d364669') in 0.023373 seconds 
+  Import took 0.028412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatAttack5.png
+  artifactKey: Guid(400a12de7c37333448d7fc38bc6456df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatAttack5.png using Guid(400a12de7c37333448d7fc38bc6456df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbfe2675c164467a2fece8e96d31b79d') in 0.028543 seconds 
+  Import took 0.033980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatAttack3.png
+  artifactKey: Guid(8fea4093191f49746a460b59ebadb8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatAttack3.png using Guid(8fea4093191f49746a460b59ebadb8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083820eb4febe610e562db3296d7ba13') in 0.026775 seconds 
+  Import took 0.032332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatAttack1.png
+  artifactKey: Guid(c606290f8b175614eb83c5e262665bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatAttack1.png using Guid(c606290f8b175614eb83c5e262665bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c93854c920aa4898f6d59479729282') in 0.025696 seconds 
+  Import took 0.032662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie2.png
+  artifactKey: Guid(0516ac3678de68a4fa002b64af754330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie2.png using Guid(0516ac3678de68a4fa002b64af754330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5e7478bcb9be39a2814de3c2a52f81') in 0.031311 seconds 
+  Import took 0.037261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie3.png
+  artifactKey: Guid(02510454d4e2f924bb8c200407a46f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie3.png using Guid(02510454d4e2f924bb8c200407a46f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1caa665ccf98e36b6bfbb5b41ba14330') in 0.026056 seconds 
+  Import took 0.035427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump1.png
+  artifactKey: Guid(c0bbada48467a444f87f033c2abc23c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump1.png using Guid(c0bbada48467a444f87f033c2abc23c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daea232875637d2245dcb93090e0e3b0') in 0.025884 seconds 
+  Import took 0.030508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie7.png
+  artifactKey: Guid(5d047e8e741243c4097e31b926b15440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie7.png using Guid(5d047e8e741243c4097e31b926b15440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190efcfd15562e576c5de2c67bfc55c0') in 0.026948 seconds 
+  Import took 0.039994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie8.png
+  artifactKey: Guid(5ee6aa9ae5719704db5e06887850a47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie8.png using Guid(5ee6aa9ae5719704db5e06887850a47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b74cd09599df25dc9371f98471c4a36') in 0.028205 seconds 
+  Import took 0.033526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatAttack2.png
+  artifactKey: Guid(8f827bdde5c1d8c48bb77ba1c083d9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatAttack2.png using Guid(8f827bdde5c1d8c48bb77ba1c083d9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9ab200dafcdbef6481aca2b4d2a54d') in 0.048417 seconds 
+  Import took 0.054772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.203748 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait1.png
+  artifactKey: Guid(68fb59eac6a88ae40bbef78a901185ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait1.png using Guid(68fb59eac6a88ae40bbef78a901185ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9004c65029ffe4d606400bca8eee5b') in 0.018474 seconds 
+  Import took 0.023795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.100800 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatAttack1.png
+  artifactKey: Guid(c606290f8b175614eb83c5e262665bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatAttack1.png using Guid(c606290f8b175614eb83c5e262665bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007c2a3ce135c82aa9648c6672cb33d7') in 0.113805 seconds 
+  Import took 0.121015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie5.png
+  artifactKey: Guid(76084c4d0b84e37479c4f09fec69d76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie5.png using Guid(76084c4d0b84e37479c4f09fec69d76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1ebbe8300e3dc0481d20275dcdeb22') in 0.017764 seconds 
+  Import took 0.028571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump5.png
+  artifactKey: Guid(a7f654876c990674fb4a6cee95ab3f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump5.png using Guid(a7f654876c990674fb4a6cee95ab3f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5fa08d1a0102a6f470894b248006826') in 0.019913 seconds 
+  Import took 0.025197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie1.png
+  artifactKey: Guid(e08b4b91a6e3dac4da360e1c4fab2a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie1.png using Guid(e08b4b91a6e3dac4da360e1c4fab2a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2517c9f239d51c56697f6858ef38cdf') in 0.018505 seconds 
+  Import took 0.026711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie9.png
+  artifactKey: Guid(9b5ed3e7c735f9b40974cbe4c3829998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie9.png using Guid(9b5ed3e7c735f9b40974cbe4c3829998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcef86a77d52afb8db542c501615d94') in 0.023258 seconds 
+  Import took 0.029775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie4.png
+  artifactKey: Guid(5f984c1bac31a5842ae5004e8ae0317c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie4.png using Guid(5f984c1bac31a5842ae5004e8ae0317c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac33a8164f1ffcdea4cd39a2a9be2cdf') in 0.017630 seconds 
+  Import took 0.032546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump4.png
+  artifactKey: Guid(1bd95a279b139d042b744b7584c4ae0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump4.png using Guid(1bd95a279b139d042b744b7584c4ae0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe42a4a9c0ca36cb0cfc9aea987cd49') in 0.018282 seconds 
+  Import took 0.022871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump2.png
+  artifactKey: Guid(7ba67a773b4dcdc4cbe7b52298ab77a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump2.png using Guid(7ba67a773b4dcdc4cbe7b52298ab77a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c776e7162be2f1514ad8d1819e33d6') in 0.054135 seconds 
+  Import took 0.058614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie6.png
+  artifactKey: Guid(9367850e27ba2744e8cfaca5c0e0aee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie6.png using Guid(9367850e27ba2744e8cfaca5c0e0aee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21b846fb4e9ca6b8d611c2791004583') in 0.019104 seconds 
+  Import took 0.035282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatAttack4.png
+  artifactKey: Guid(a816317e8cf75684f9e6ae0db71ede88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatAttack4.png using Guid(a816317e8cf75684f9e6ae0db71ede88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65897472e704e14ab6feccc8f823f469') in 0.022590 seconds 
+  Import took 0.027964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump3.png
+  artifactKey: Guid(bfa7ad4637d9b234cb997fe34171a6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump3.png using Guid(bfa7ad4637d9b234cb997fe34171a6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e10b651ff42c2dc80049970fb1b8b57') in 0.021929 seconds 
+  Import took 0.027553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie10.png
+  artifactKey: Guid(ce234f3d85beacc41abb0e0fbe01ab40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie10.png using Guid(ce234f3d85beacc41abb0e0fbe01ab40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836be96198db6cf281be091efcdfe850') in 0.019763 seconds 
+  Import took 0.025008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatAttack5.png
+  artifactKey: Guid(400a12de7c37333448d7fc38bc6456df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatAttack5.png using Guid(400a12de7c37333448d7fc38bc6456df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5182f440245aa6979ed9141b0fd9c267') in 0.025405 seconds 
+  Import took 0.036477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatAttack3.png
+  artifactKey: Guid(8fea4093191f49746a460b59ebadb8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatAttack3.png using Guid(8fea4093191f49746a460b59ebadb8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3170a0afe90adbe484818c2eab74c34e') in 0.024912 seconds 
+  Import took 0.033041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie2.png
+  artifactKey: Guid(0516ac3678de68a4fa002b64af754330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie2.png using Guid(0516ac3678de68a4fa002b64af754330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a08140730b1c701218ffb4071a1afd') in 0.025088 seconds 
+  Import took 0.030210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump6.png
+  artifactKey: Guid(3b0d867fc0ee6514cb4e74d1be3b5455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump6.png using Guid(3b0d867fc0ee6514cb4e74d1be3b5455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9c723b57559b278f1df49a56193316') in 0.024342 seconds 
+  Import took 0.028820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie3.png
+  artifactKey: Guid(02510454d4e2f924bb8c200407a46f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie3.png using Guid(02510454d4e2f924bb8c200407a46f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c352b9d5c589f240ab5aebc73309755') in 0.017938 seconds 
+  Import took 0.022070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump1.png
+  artifactKey: Guid(c0bbada48467a444f87f033c2abc23c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump1.png using Guid(c0bbada48467a444f87f033c2abc23c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3058fde46fe339b859cb22673f9b635e') in 0.022416 seconds 
+  Import took 0.035018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie7.png
+  artifactKey: Guid(5d047e8e741243c4097e31b926b15440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie7.png using Guid(5d047e8e741243c4097e31b926b15440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45919e790ece479af9e2f88e5bcf7fb2') in 0.020178 seconds 
+  Import took 0.025071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie8.png
+  artifactKey: Guid(5ee6aa9ae5719704db5e06887850a47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie8.png using Guid(5ee6aa9ae5719704db5e06887850a47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70915b0011c048009afd635b026ac79') in 0.019661 seconds 
+  Import took 0.024614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatAttack2.png
+  artifactKey: Guid(8f827bdde5c1d8c48bb77ba1c083d9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatAttack2.png using Guid(8f827bdde5c1d8c48bb77ba1c083d9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43700e9171c712f0e800ecb3e94c0247') in 0.023151 seconds 
+  Import took 0.028744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.712778 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint1.png
+  artifactKey: Guid(5740272d4fdd38f40ba97289b65774a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint1.png using Guid(5740272d4fdd38f40ba97289b65774a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02e7bcbc45b76752a9eda4055056971') in 0.020480 seconds 
+  Import took 0.024854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint2.png
+  artifactKey: Guid(b1439b60f315e484fa5b54c795e14bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint2.png using Guid(b1439b60f315e484fa5b54c795e14bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a4c9eaec21029c82b6cb956c18f206') in 0.020910 seconds 
+  Import took 0.025979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatStart2.png
+  artifactKey: Guid(8733e04abfd694a449d31578c4f35b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatStart2.png using Guid(8733e04abfd694a449d31578c4f35b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770b9fe3e4389cb28a57103becc61325') in 0.042173 seconds 
+  Import took 0.046956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatStart4.png
+  artifactKey: Guid(b09d8ff35bc67f34297ff8e125774bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatStart4.png using Guid(b09d8ff35bc67f34297ff8e125774bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020acc1645aa6b8f8b4880b3912f8435') in 0.021223 seconds 
+  Import took 0.026334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatStart3.png
+  artifactKey: Guid(d37e82bcc3cd524488147b32c15d6a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatStart3.png using Guid(d37e82bcc3cd524488147b32c15d6a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2418a38d592eb7fab9514b7dc51275b') in 0.019831 seconds 
+  Import took 0.026661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint5.png
+  artifactKey: Guid(0b7802c29df44f94d98b88527159234c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint5.png using Guid(0b7802c29df44f94d98b88527159234c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dbce64c38580c77562a2e63c1a81c1a') in 0.021304 seconds 
+  Import took 0.026156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait4.png
+  artifactKey: Guid(053cec4968e980e44ae32313e8be93a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait4.png using Guid(053cec4968e980e44ae32313e8be93a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5acb11494a529824b199082066623f') in 0.024685 seconds 
+  Import took 0.030238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001291 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint2.png
+  artifactKey: Guid(b1439b60f315e484fa5b54c795e14bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint2.png using Guid(b1439b60f315e484fa5b54c795e14bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a4c9eaec21029c82b6cb956c18f206') in 0.022126 seconds 
+  Import took 0.028234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait3.png
+  artifactKey: Guid(23da21f9e27dd2348a08193811c38cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait3.png using Guid(23da21f9e27dd2348a08193811c38cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78e391541453987b6d4609d37ceb425') in 0.022363 seconds 
+  Import took 0.053078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk4.png
+  artifactKey: Guid(27f0b3cae071e924b8ea1a52ac7837d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk4.png using Guid(27f0b3cae071e924b8ea1a52ac7837d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fec24bab131d5541278f13b8cebd883') in 0.020141 seconds 
+  Import took 0.024405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk5.png
+  artifactKey: Guid(58896e71e7a05274a85bf7af4f0ab0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk5.png using Guid(58896e71e7a05274a85bf7af4f0ab0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85d219b625fa9c8b9585d08d95f9f57') in 0.019303 seconds 
+  Import took 0.024743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait5.png
+  artifactKey: Guid(0c328e9d4d5466f46add1b075e007b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait5.png using Guid(0c328e9d4d5466f46add1b075e007b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85690729eacebbda7bff8a913808874') in 0.019563 seconds 
+  Import took 0.023902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk1.png
+  artifactKey: Guid(a43f11c60dd730247b18b414966ba357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk1.png using Guid(a43f11c60dd730247b18b414966ba357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04ab529a752499a4e4109c7393e5f80') in 0.025054 seconds 
+  Import took 0.029390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint3.png
+  artifactKey: Guid(17de73eb3a1b20f4d806a93c6666adde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint3.png using Guid(17de73eb3a1b20f4d806a93c6666adde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0336ebe886f4b775c338e14c3a627d') in 0.020002 seconds 
+  Import took 0.024054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk3.png
+  artifactKey: Guid(a11ef15bee4557f41a3b2c268a610686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk3.png using Guid(a11ef15bee4557f41a3b2c268a610686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c85a93c2a61233b3d77b41b957bc17') in 0.020591 seconds 
+  Import took 0.039023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatStart1.png
+  artifactKey: Guid(164a40ab44aceca46a9e4df0610751d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatStart1.png using Guid(164a40ab44aceca46a9e4df0610751d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba15dae804ed23436cb689dcf299acf4') in 0.021778 seconds 
+  Import took 0.040839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatStart5.png
+  artifactKey: Guid(248ef50acf3d52a4e8a376f615ac4ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatStart5.png using Guid(248ef50acf3d52a4e8a376f615ac4ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb1f246f86d28d1d94ce03df0eac285') in 0.020912 seconds 
+  Import took 0.026180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint1.png
+  artifactKey: Guid(5740272d4fdd38f40ba97289b65774a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint1.png using Guid(5740272d4fdd38f40ba97289b65774a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02e7bcbc45b76752a9eda4055056971') in 0.023868 seconds 
+  Import took 0.028035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk6.png
+  artifactKey: Guid(8a66a493c6498fd4cb3597589129ceed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk6.png using Guid(8a66a493c6498fd4cb3597589129ceed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506310ba2a8d2f68c6751b16cd7d8077') in 0.023521 seconds 
+  Import took 0.029126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait6.png
+  artifactKey: Guid(dacd41ae7bd50474a81b3fd731700c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait6.png using Guid(dacd41ae7bd50474a81b3fd731700c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d51e4fe1b52fd75030ac000e0a8c1a') in 0.022030 seconds 
+  Import took 0.026553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait2.png
+  artifactKey: Guid(efa78ca00d4bd7e45ba5318c0f0bc347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait2.png using Guid(efa78ca00d4bd7e45ba5318c0f0bc347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b66286d0a924887ea8bd120959ebcd') in 0.034513 seconds 
+  Import took 0.050424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint4.png
+  artifactKey: Guid(f012a752979ea7a42a6a3222f8cacafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint4.png using Guid(f012a752979ea7a42a6a3222f8cacafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3b273654db869f0681d5cf849b6d5d') in 0.020409 seconds 
+  Import took 0.026273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint6.png
+  artifactKey: Guid(2f700f3f881f025469538315fe1b1c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint6.png using Guid(2f700f3f881f025469538315fe1b1c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f19cf40c749506729938d923df7a95') in 0.021927 seconds 
+  Import took 0.026930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk2.png
+  artifactKey: Guid(8a1cbee5cad8f004aac952eb79c6e53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk2.png using Guid(8a1cbee5cad8f004aac952eb79c6e53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64536f0780c9bae88e5ad8b836da4857') in 0.024772 seconds 
+  Import took 0.033723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.714681 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait1.png
+  artifactKey: Guid(68fb59eac6a88ae40bbef78a901185ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait1.png using Guid(68fb59eac6a88ae40bbef78a901185ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad31bed2a52d2ece9c9c866dd1f36ba') in 0.036596 seconds 
+  Import took 0.040613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081591 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait1.png
+  artifactKey: Guid(68fb59eac6a88ae40bbef78a901185ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait1.png using Guid(68fb59eac6a88ae40bbef78a901185ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad31bed2a52d2ece9c9c866dd1f36ba') in 0.019823 seconds 
+  Import took 0.025370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000880 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait4.png
+  artifactKey: Guid(053cec4968e980e44ae32313e8be93a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait4.png using Guid(053cec4968e980e44ae32313e8be93a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929c52f1698c3ccb2e3a7c525ed5c8c1') in 0.022615 seconds 
+  Import took 0.041652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk4.png
+  artifactKey: Guid(27f0b3cae071e924b8ea1a52ac7837d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk4.png using Guid(27f0b3cae071e924b8ea1a52ac7837d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d654d6db62cea2168368027f82329fe') in 0.019968 seconds 
+  Import took 0.023889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk5.png
+  artifactKey: Guid(58896e71e7a05274a85bf7af4f0ab0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk5.png using Guid(58896e71e7a05274a85bf7af4f0ab0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3cac8f9a79b952462f7398998c67f4') in 0.019415 seconds 
+  Import took 0.024601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait3.png
+  artifactKey: Guid(23da21f9e27dd2348a08193811c38cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait3.png using Guid(23da21f9e27dd2348a08193811c38cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f990fd173240422a0610ebf5b4ff58') in 0.019239 seconds 
+  Import took 0.023416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait5.png
+  artifactKey: Guid(0c328e9d4d5466f46add1b075e007b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait5.png using Guid(0c328e9d4d5466f46add1b075e007b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de53a7a178cc50f4c511c8c9671f2840') in 0.017933 seconds 
+  Import took 0.022617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk1.png
+  artifactKey: Guid(a43f11c60dd730247b18b414966ba357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk1.png using Guid(a43f11c60dd730247b18b414966ba357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e26ce36eefa406361e3c001f77a183') in 0.024247 seconds 
+  Import took 0.034179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk3.png
+  artifactKey: Guid(a11ef15bee4557f41a3b2c268a610686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk3.png using Guid(a11ef15bee4557f41a3b2c268a610686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37628e5bb68c46467b8163f12c8a16b') in 0.019463 seconds 
+  Import took 0.029778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait6.png
+  artifactKey: Guid(dacd41ae7bd50474a81b3fd731700c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait6.png using Guid(dacd41ae7bd50474a81b3fd731700c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1124d94d483485c846541797297324d4') in 0.021350 seconds 
+  Import took 0.025566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk6.png
+  artifactKey: Guid(8a66a493c6498fd4cb3597589129ceed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk6.png using Guid(8a66a493c6498fd4cb3597589129ceed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44594e724d16cba8aeda6a49473feab') in 0.025394 seconds 
+  Import took 0.031460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait2.png
+  artifactKey: Guid(efa78ca00d4bd7e45ba5318c0f0bc347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait2.png using Guid(efa78ca00d4bd7e45ba5318c0f0bc347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87464b66b6ff2ab6f4e13ca8539e6e50') in 0.019919 seconds 
+  Import took 0.025748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk2.png
+  artifactKey: Guid(8a1cbee5cad8f004aac952eb79c6e53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk2.png using Guid(8a1cbee5cad8f004aac952eb79c6e53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b7447cc3bd1eb07826afd015aafbbd') in 0.027285 seconds 
+  Import took 0.050171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.435607 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait1.png
+  artifactKey: Guid(68fb59eac6a88ae40bbef78a901185ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait1.png using Guid(68fb59eac6a88ae40bbef78a901185ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e12e742c48fc38837112be43b40303') in 0.023908 seconds 
   Import took 0.044163 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 128.961687 seconds.
-  path: Assets/Scenes/GameScene2.unity
-  artifactKey: Guid(88f91f5cdc4f6a8408eb21eeb999b77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene2.unity using Guid(88f91f5cdc4f6a8408eb21eeb999b77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bab7846cbd3bab4f981370cc87b54df') in 0.017676 seconds 
-  Import took 0.031968 seconds .
+  Time since last request: 0.080861 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait1.png
+  artifactKey: Guid(68fb59eac6a88ae40bbef78a901185ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait1.png using Guid(68fb59eac6a88ae40bbef78a901185ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e12e742c48fc38837112be43b40303') in 0.020435 seconds 
+  Import took 0.025074 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 279.386451 seconds.
-  path: Assets/Scenes/GameScene2.unity
-  artifactKey: Guid(88f91f5cdc4f6a8408eb21eeb999b77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene2.unity using Guid(88f91f5cdc4f6a8408eb21eeb999b77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73ee97c027e64aed2cd1798c1bf36af') in 0.008275 seconds 
-  Import took 0.017288 seconds .
+  Time since last request: 0.000873 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait4.png
+  artifactKey: Guid(053cec4968e980e44ae32313e8be93a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait4.png using Guid(053cec4968e980e44ae32313e8be93a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a867b1111e3eebd162024a61daa67b9') in 0.021613 seconds 
+  Import took 0.025994 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.964389 seconds.
-  path: Assets/Scenes/GameScene2.unity
-  artifactKey: Guid(88f91f5cdc4f6a8408eb21eeb999b77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene2.unity using Guid(88f91f5cdc4f6a8408eb21eeb999b77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e2380753185ec480532b57ad91357e') in 0.008820 seconds 
-  Import took 0.013427 seconds .
+  Time since last request: 0.000217 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk4.png
+  artifactKey: Guid(27f0b3cae071e924b8ea1a52ac7837d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk4.png using Guid(27f0b3cae071e924b8ea1a52ac7837d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f13debfcc3e965481d8e8d1533ce62f') in 0.046126 seconds 
+  Import took 0.067400 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.008206 seconds.
-  path: Assets/Scenes/GameScene2.unity
-  artifactKey: Guid(88f91f5cdc4f6a8408eb21eeb999b77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene2.unity using Guid(88f91f5cdc4f6a8408eb21eeb999b77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e2380753185ec480532b57ad91357e') in 0.003721 seconds 
-  Import took 0.008374 seconds .
+  Time since last request: 0.000190 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk5.png
+  artifactKey: Guid(58896e71e7a05274a85bf7af4f0ab0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk5.png using Guid(58896e71e7a05274a85bf7af4f0ab0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0a457aa9b1c2a1737e816d8b5e0b04') in 0.023403 seconds 
+  Import took 0.028302 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.114827 seconds.
-  path: Assets/Scenes/SampleSceneSettings.lighting
-  artifactKey: Guid(c0b5874bb0451fd4c9f39f2afa3a0fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleSceneSettings.lighting using Guid(c0b5874bb0451fd4c9f39f2afa3a0fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: '881147581e4d5f60fcb3465f20c3a4a4') in 0.052061 seconds 
-  Import took 0.056385 seconds .
+  Time since last request: 0.000186 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait3.png
+  artifactKey: Guid(23da21f9e27dd2348a08193811c38cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait3.png using Guid(23da21f9e27dd2348a08193811c38cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774d0c257d72256139150e24f57d2a2f') in 0.018819 seconds 
+  Import took 0.024020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait5.png
+  artifactKey: Guid(0c328e9d4d5466f46add1b075e007b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait5.png using Guid(0c328e9d4d5466f46add1b075e007b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d910388217b859d4d5a673cd2765cc') in 0.020969 seconds 
+  Import took 0.025802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk1.png
+  artifactKey: Guid(a43f11c60dd730247b18b414966ba357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk1.png using Guid(a43f11c60dd730247b18b414966ba357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26014b938c081023cf0edd4c792d9e81') in 0.022600 seconds 
+  Import took 0.027103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk3.png
+  artifactKey: Guid(a11ef15bee4557f41a3b2c268a610686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk3.png using Guid(a11ef15bee4557f41a3b2c268a610686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06de95174901df154aaa958010882c71') in 0.020901 seconds 
+  Import took 0.025454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait6.png
+  artifactKey: Guid(dacd41ae7bd50474a81b3fd731700c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait6.png using Guid(dacd41ae7bd50474a81b3fd731700c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf71b0e946cd34ab8fa2b87c9032f03') in 0.020844 seconds 
+  Import took 0.026114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk6.png
+  artifactKey: Guid(8a66a493c6498fd4cb3597589129ceed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk6.png using Guid(8a66a493c6498fd4cb3597589129ceed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567c6bab6b5d5545b8e0793724ee6192') in 0.020988 seconds 
+  Import took 0.026036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait2.png
+  artifactKey: Guid(efa78ca00d4bd7e45ba5318c0f0bc347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait2.png using Guid(efa78ca00d4bd7e45ba5318c0f0bc347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6d9a018f01debcb65ec715826a078a') in 0.018075 seconds 
+  Import took 0.024039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk2.png
+  artifactKey: Guid(8a1cbee5cad8f004aac952eb79c6e53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk2.png using Guid(8a1cbee5cad8f004aac952eb79c6e53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d6eada0d4d85e6b87c6dd138fc9216') in 0.021831 seconds 
+  Import took 0.026160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.912676 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint4.png
+  artifactKey: Guid(f012a752979ea7a42a6a3222f8cacafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint4.png using Guid(f012a752979ea7a42a6a3222f8cacafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f044357ede143db01b028cc340999487') in 0.024461 seconds 
+  Import took 0.029071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatStart4.png
+  artifactKey: Guid(b09d8ff35bc67f34297ff8e125774bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatStart4.png using Guid(b09d8ff35bc67f34297ff8e125774bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91c0e3eb3dc4d1e8d75c0a1f310626a') in 0.022853 seconds 
+  Import took 0.028591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatStart3.png
+  artifactKey: Guid(d37e82bcc3cd524488147b32c15d6a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatStart3.png using Guid(d37e82bcc3cd524488147b32c15d6a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a7b5e97a58bd848345f606a2684250') in 0.019324 seconds 
+  Import took 0.024580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatStart2.png
+  artifactKey: Guid(8733e04abfd694a449d31578c4f35b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatStart2.png using Guid(8733e04abfd694a449d31578c4f35b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3760f263bee164b79eef786ab63c9713') in 0.018487 seconds 
+  Import took 0.024288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint5.png
+  artifactKey: Guid(0b7802c29df44f94d98b88527159234c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint5.png using Guid(0b7802c29df44f94d98b88527159234c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87682701fb1444162b2074578eb5fe7d') in 0.021254 seconds 
+  Import took 0.026303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatStart1.png
+  artifactKey: Guid(164a40ab44aceca46a9e4df0610751d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatStart1.png using Guid(164a40ab44aceca46a9e4df0610751d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76430979412d1468cfb7b3384e97e28') in 0.023229 seconds 
+  Import took 0.028070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatStart5.png
+  artifactKey: Guid(248ef50acf3d52a4e8a376f615ac4ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatStart5.png using Guid(248ef50acf3d52a4e8a376f615ac4ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4698c146398b88ef3a03c809b0f98c87') in 0.022112 seconds 
+  Import took 0.026770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint4.png
+  artifactKey: Guid(f012a752979ea7a42a6a3222f8cacafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint4.png using Guid(f012a752979ea7a42a6a3222f8cacafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f044357ede143db01b028cc340999487') in 0.019260 seconds 
+  Import took 0.023989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint6.png
+  artifactKey: Guid(2f700f3f881f025469538315fe1b1c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint6.png using Guid(2f700f3f881f025469538315fe1b1c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8295a1b5e4cfd126dfe9ab940f62fed7') in 0.024122 seconds 
+  Import took 0.028919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068465 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump2.png
+  artifactKey: Guid(7ba67a773b4dcdc4cbe7b52298ab77a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump2.png using Guid(7ba67a773b4dcdc4cbe7b52298ab77a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70288c8678741b9a0095ad5eaccc6e8') in 0.021014 seconds 
+  Import took 0.025444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump5.png
+  artifactKey: Guid(a7f654876c990674fb4a6cee95ab3f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump5.png using Guid(a7f654876c990674fb4a6cee95ab3f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f894b7884d44274ff64a0b962d163e76') in 0.021983 seconds 
+  Import took 0.027312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint2.png
+  artifactKey: Guid(b1439b60f315e484fa5b54c795e14bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint2.png using Guid(b1439b60f315e484fa5b54c795e14bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e37debb70abdef62e750763d28d444f') in 0.021241 seconds 
+  Import took 0.026627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump4.png
+  artifactKey: Guid(1bd95a279b139d042b744b7584c4ae0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump4.png using Guid(1bd95a279b139d042b744b7584c4ae0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6baa868a9c0ab30e38aeffc81aa1818') in 0.018654 seconds 
+  Import took 0.050106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump2.png
+  artifactKey: Guid(7ba67a773b4dcdc4cbe7b52298ab77a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump2.png using Guid(7ba67a773b4dcdc4cbe7b52298ab77a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70288c8678741b9a0095ad5eaccc6e8') in 0.017860 seconds 
+  Import took 0.023306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint3.png
+  artifactKey: Guid(17de73eb3a1b20f4d806a93c6666adde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint3.png using Guid(17de73eb3a1b20f4d806a93c6666adde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc68963791dc5cb92585916b200ad212') in 0.020587 seconds 
+  Import took 0.025599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump3.png
+  artifactKey: Guid(bfa7ad4637d9b234cb997fe34171a6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump3.png using Guid(bfa7ad4637d9b234cb997fe34171a6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ff3c2799ad5cdba32db75510a6209b') in 0.020076 seconds 
+  Import took 0.024632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint1.png
+  artifactKey: Guid(5740272d4fdd38f40ba97289b65774a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint1.png using Guid(5740272d4fdd38f40ba97289b65774a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d308cf47473f31c842a88493fbf1dd') in 0.020707 seconds 
+  Import took 0.025935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump6.png
+  artifactKey: Guid(3b0d867fc0ee6514cb4e74d1be3b5455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump6.png using Guid(3b0d867fc0ee6514cb4e74d1be3b5455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7865f5c6bb22c34fd5c824735a52eb') in 0.019554 seconds 
+  Import took 0.024189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.920226 seconds.
+  path: Assets/Sprites/UI/Menu
+  artifactKey: Guid(c28a55267ddb7f748bc346eb60d2fd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Menu using Guid(c28a55267ddb7f748bc346eb60d2fd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a747d66e9e4ec920370a48192e6b3b') in 0.026962 seconds 
+  Import took 0.034845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.549484 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie2.png
+  artifactKey: Guid(0516ac3678de68a4fa002b64af754330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie2.png using Guid(0516ac3678de68a4fa002b64af754330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31a8e7d56a1856266315221d8b9ea4e') in 0.024276 seconds 
+  Import took 0.030419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.784964 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Goblin/Idle.png
+  artifactKey: Guid(c1cdd26cc09ad224884556bc4d8296ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Goblin/Idle.png using Guid(c1cdd26cc09ad224884556bc4d8296ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ffa07faeec623d25ee0328d2c1f0c5') in 0.036679 seconds 
+  Import took 0.042442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009148 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Goblin/Attack1.png
+  artifactKey: Guid(f84c06efa9991bd49b5553f54f400348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Goblin/Attack1.png using Guid(f84c06efa9991bd49b5553f54f400348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85f22c33a3908c727650b590193ff18') in 0.058128 seconds 
+  Import took 0.063735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Goblin/Death.png
+  artifactKey: Guid(cbd77a78256671c4c9cf1492e8ce39b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Goblin/Death.png using Guid(cbd77a78256671c4c9cf1492e8ce39b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84bf03d2dfad3adccdc74f34eec4a32') in 0.040937 seconds 
+  Import took 0.045400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Goblin/Attack2.png
+  artifactKey: Guid(0bde33da364a06c4ab011aca33752f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Goblin/Attack2.png using Guid(0bde33da364a06c4ab011aca33752f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dede1791d0bb0bd67582b6fa904f041') in 0.055459 seconds 
+  Import took 0.060477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Goblin/Run.png
+  artifactKey: Guid(048dae4a3e3ffa741b83654644b60a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Goblin/Run.png using Guid(048dae4a3e3ffa741b83654644b60a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de83510476fd7c2dfa887912c941c1ae') in 0.057895 seconds 
+  Import took 0.062247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Goblin/Take Hit.png
+  artifactKey: Guid(8dee453321432cc47b70ddef8f3a3a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Goblin/Take Hit.png using Guid(8dee453321432cc47b70ddef8f3a3a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04790ee50c4ef679478b213f16079724') in 0.032404 seconds 
+  Import took 0.037532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.348709 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Flying eye/Take Hit.png
+  artifactKey: Guid(244d2b7af82202d4daae9b898fd596d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Flying eye/Take Hit.png using Guid(244d2b7af82202d4daae9b898fd596d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09a44c2cba266ecc69295c3c2cea767') in 0.032286 seconds 
+  Import took 0.037055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016420 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Flying eye/Attack1.png
+  artifactKey: Guid(ce3326307819d6e4497038e63e070108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Flying eye/Attack1.png using Guid(ce3326307819d6e4497038e63e070108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75f7b65a1727ba2fae1462e28e3a70b') in 0.055662 seconds 
+  Import took 0.060877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Flying eye/Flight.png
+  artifactKey: Guid(6d7cd4f7505dc674c891ca8946cfd98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Flying eye/Flight.png using Guid(6d7cd4f7505dc674c891ca8946cfd98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5da2047ecadda8c68660d6073525e8') in 0.053854 seconds 
+  Import took 0.058894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Flying eye/Death.png
+  artifactKey: Guid(b9517addf15136e47a89337d912454b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Flying eye/Death.png using Guid(b9517addf15136e47a89337d912454b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4618805c7d969fcac1d2ef800f21508b') in 0.033632 seconds 
+  Import took 0.038649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Flying eye/Attack2.png
+  artifactKey: Guid(dd255f029b1eb1347b77fb335d97ea38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Flying eye/Attack2.png using Guid(dd255f029b1eb1347b77fb335d97ea38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0004c0702474858bd6a523003aa85792') in 0.043671 seconds 
+  Import took 0.049382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.147281 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Mushroom/Idle.png
+  artifactKey: Guid(f8b30c2afe165d645b54d500a9c30862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Mushroom/Idle.png using Guid(f8b30c2afe165d645b54d500a9c30862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3489750d36ce7ad0f37eac6bb1d39e56') in 0.029930 seconds 
+  Import took 0.034860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020182 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Mushroom/Attack1.png
+  artifactKey: Guid(5cdfcef2d5ef97347a8d7935407f81ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Mushroom/Attack1.png using Guid(5cdfcef2d5ef97347a8d7935407f81ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50eb9bf2cb90a587c88313465b48c53') in 0.052612 seconds 
+  Import took 0.058509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Mushroom/Run.png
+  artifactKey: Guid(c6ac0078f39473048b9f54d791095f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Mushroom/Run.png using Guid(c6ac0078f39473048b9f54d791095f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f28b0ac7dd5c87472df1a5a009d7b0c') in 0.053515 seconds 
+  Import took 0.059279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Mushroom/Death.png
+  artifactKey: Guid(895ce69a98d58464aaaf85c1f9ee9497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Mushroom/Death.png using Guid(895ce69a98d58464aaaf85c1f9ee9497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b781c5505092e38edfe3f2c7916f601') in 0.030302 seconds 
+  Import took 0.035062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Mushroom/Attack2.png
+  artifactKey: Guid(179f77b4a77508644bb0e4717e8add6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Mushroom/Attack2.png using Guid(179f77b4a77508644bb0e4717e8add6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5419b24907a0b2add6d6f73493171e1c') in 0.052778 seconds 
+  Import took 0.057680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Mushroom/Take Hit.png
+  artifactKey: Guid(dcdda75e148449b4283619583230b32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Mushroom/Take Hit.png using Guid(dcdda75e148449b4283619583230b32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553f53322d5a82280059d4ee0ec82903') in 0.035410 seconds 
+  Import took 0.039584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.267718 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Skeleton/Idle.png
+  artifactKey: Guid(1018b0ba13578bf459bd254ae1a2be99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Skeleton/Idle.png using Guid(1018b0ba13578bf459bd254ae1a2be99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1d5e175b0afd6cab426e15c525e0f5') in 0.043343 seconds 
+  Import took 0.058323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Skeleton/Attack1.png
+  artifactKey: Guid(5f19f67e94a2e2f4ba57d2b338387c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Skeleton/Attack1.png using Guid(5f19f67e94a2e2f4ba57d2b338387c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b44e94da08e03edcf3b3baf2bb73b8c') in 0.054292 seconds 
+  Import took 0.058798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Skeleton/Take Hit.png
+  artifactKey: Guid(f7fb89b82e205ea4ba8a88cee4d3070b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Skeleton/Take Hit.png using Guid(f7fb89b82e205ea4ba8a88cee4d3070b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb28e7d12cd8bc50309a4f8e0feab931') in 0.036043 seconds 
+  Import took 0.040507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Skeleton/Attack2.png
+  artifactKey: Guid(267c7fb536f99514ea7c4e7236d4bdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Skeleton/Attack2.png using Guid(267c7fb536f99514ea7c4e7236d4bdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adc7b301d201d1cd943034c41c3270e') in 0.053261 seconds 
+  Import took 0.058166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Skeleton/Shield.png
+  artifactKey: Guid(f296174d37bb31841bccf9b56d811f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Skeleton/Shield.png using Guid(f296174d37bb31841bccf9b56d811f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44fe011f7a8118719ec67d0e2f8baff7') in 0.031480 seconds 
+  Import took 0.036782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002436 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Skeleton/Attack2.png
+  artifactKey: Guid(267c7fb536f99514ea7c4e7236d4bdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Skeleton/Attack2.png using Guid(267c7fb536f99514ea7c4e7236d4bdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adc7b301d201d1cd943034c41c3270e') in 0.045525 seconds 
+  Import took 0.051138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Skeleton/Death.png
+  artifactKey: Guid(29ba92ebaa6f6964083271810310d1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Skeleton/Death.png using Guid(29ba92ebaa6f6964083271810310d1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3b446d59a5093a493c0e9e3fe1b2bb') in 0.022919 seconds 
+  Import took 0.034407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Skeleton/Walk.png
+  artifactKey: Guid(c5b15ca3a0987ac46b73e4a04e12eeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Skeleton/Walk.png using Guid(c5b15ca3a0987ac46b73e4a04e12eeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117fa78a9fc8d80069e667bdddf85f90') in 0.037976 seconds 
+  Import took 0.042354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.560586 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatAttack1.png
+  artifactKey: Guid(c606290f8b175614eb83c5e262665bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatAttack1.png using Guid(c606290f8b175614eb83c5e262665bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230facbbfc9a599b584f6ed627f74881') in 0.020126 seconds 
+  Import took 0.027072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie5.png
+  artifactKey: Guid(76084c4d0b84e37479c4f09fec69d76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie5.png using Guid(76084c4d0b84e37479c4f09fec69d76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d209726b25db381c310c880e4d3f780') in 0.034004 seconds 
+  Import took 0.038747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie1.png
+  artifactKey: Guid(e08b4b91a6e3dac4da360e1c4fab2a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie1.png using Guid(e08b4b91a6e3dac4da360e1c4fab2a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17050529d8c5e2efc29a3b7694fd858') in 0.022701 seconds 
+  Import took 0.027306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie9.png
+  artifactKey: Guid(9b5ed3e7c735f9b40974cbe4c3829998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie9.png using Guid(9b5ed3e7c735f9b40974cbe4c3829998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1558db0b0dd0a9d45f575a59d3bc636f') in 0.028336 seconds 
+  Import took 0.033586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001065 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie4.png
+  artifactKey: Guid(5f984c1bac31a5842ae5004e8ae0317c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie4.png using Guid(5f984c1bac31a5842ae5004e8ae0317c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26ad1f07b498f892707c54065b3649a') in 0.020801 seconds 
+  Import took 0.025367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie6.png
+  artifactKey: Guid(9367850e27ba2744e8cfaca5c0e0aee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie6.png using Guid(9367850e27ba2744e8cfaca5c0e0aee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e26d9ca8a82981d1863db90c318c00') in 0.019404 seconds 
+  Import took 0.023973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000763 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatAttack4.png
+  artifactKey: Guid(a816317e8cf75684f9e6ae0db71ede88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatAttack4.png using Guid(a816317e8cf75684f9e6ae0db71ede88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992fcd5784562919685f195e7949b3b0') in 0.021160 seconds 
+  Import took 0.037373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie10.png
+  artifactKey: Guid(ce234f3d85beacc41abb0e0fbe01ab40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie10.png using Guid(ce234f3d85beacc41abb0e0fbe01ab40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e43d6a2ee8c211c0ffa3cdd947d4e71') in 0.023523 seconds 
+  Import took 0.028757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatAttack5.png
+  artifactKey: Guid(400a12de7c37333448d7fc38bc6456df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatAttack5.png using Guid(400a12de7c37333448d7fc38bc6456df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d47e13c26f4e18aee4f1e1485916052') in 0.026388 seconds 
+  Import took 0.030336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatAttack3.png
+  artifactKey: Guid(8fea4093191f49746a460b59ebadb8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatAttack3.png using Guid(8fea4093191f49746a460b59ebadb8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2d71d4ba6f628f08630f4932d6169c') in 0.020328 seconds 
+  Import took 0.024571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie3.png
+  artifactKey: Guid(02510454d4e2f924bb8c200407a46f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie3.png using Guid(02510454d4e2f924bb8c200407a46f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6919013d1dbce501520f297b280c1e3') in 0.026262 seconds 
+  Import took 0.031483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump1.png
+  artifactKey: Guid(c0bbada48467a444f87f033c2abc23c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump1.png using Guid(c0bbada48467a444f87f033c2abc23c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442465830a1d234b1ac6763be3cef2e0') in 0.028453 seconds 
+  Import took 0.033513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie7.png
+  artifactKey: Guid(5d047e8e741243c4097e31b926b15440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie7.png using Guid(5d047e8e741243c4097e31b926b15440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8391e85d3331d7cfe146a84b352b1b8d') in 0.022699 seconds 
+  Import took 0.027220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie8.png
+  artifactKey: Guid(5ee6aa9ae5719704db5e06887850a47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie8.png using Guid(5ee6aa9ae5719704db5e06887850a47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff498ac6c14801355aba45c339cc9c35') in 0.020255 seconds 
+  Import took 0.024392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatAttack2.png
+  artifactKey: Guid(8f827bdde5c1d8c48bb77ba1c083d9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatAttack2.png using Guid(8f827bdde5c1d8c48bb77ba1c083d9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72fe6d8833b821960f76ddd3c6d3cc93') in 0.023515 seconds 
+  Import took 0.027711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.753595 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait1.png
+  artifactKey: Guid(68fb59eac6a88ae40bbef78a901185ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait1.png using Guid(68fb59eac6a88ae40bbef78a901185ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b523a18a2a2a5ac4f884f732dae426d') in 0.022503 seconds 
+  Import took 0.028340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038081 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatStart4.png
+  artifactKey: Guid(b09d8ff35bc67f34297ff8e125774bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatStart4.png using Guid(b09d8ff35bc67f34297ff8e125774bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03c0deebafd1bcdcb38edf1a1806545') in 0.021190 seconds 
+  Import took 0.026513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait4.png
+  artifactKey: Guid(053cec4968e980e44ae32313e8be93a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait4.png using Guid(053cec4968e980e44ae32313e8be93a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97ef6e17e3658802dd791b92ceb9f0b') in 0.028205 seconds 
+  Import took 0.034127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk4.png
+  artifactKey: Guid(27f0b3cae071e924b8ea1a52ac7837d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk4.png using Guid(27f0b3cae071e924b8ea1a52ac7837d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79eb9a39ac60c2317da2aae8d9131bde') in 0.024933 seconds 
+  Import took 0.030565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk5.png
+  artifactKey: Guid(58896e71e7a05274a85bf7af4f0ab0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk5.png using Guid(58896e71e7a05274a85bf7af4f0ab0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6d8500cdcc605027f4bc859f603059') in 0.025545 seconds 
+  Import took 0.030710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait3.png
+  artifactKey: Guid(23da21f9e27dd2348a08193811c38cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait3.png using Guid(23da21f9e27dd2348a08193811c38cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7484d98ec024d97a34f8427f48ba5df') in 0.019090 seconds 
+  Import took 0.023652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait5.png
+  artifactKey: Guid(0c328e9d4d5466f46add1b075e007b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait5.png using Guid(0c328e9d4d5466f46add1b075e007b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb95c71c2ed6c0ba2bb5b8a66c58c7b') in 0.021255 seconds 
+  Import took 0.025751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk1.png
+  artifactKey: Guid(a43f11c60dd730247b18b414966ba357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk1.png using Guid(a43f11c60dd730247b18b414966ba357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4952add882eed32ebd0f14f445469e0') in 0.017910 seconds 
+  Import took 0.023108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk3.png
+  artifactKey: Guid(a11ef15bee4557f41a3b2c268a610686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk3.png using Guid(a11ef15bee4557f41a3b2c268a610686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f837ab4199a3f90457d97a1dcbc720') in 0.025081 seconds 
+  Import took 0.029899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatStart5.png
+  artifactKey: Guid(248ef50acf3d52a4e8a376f615ac4ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatStart5.png using Guid(248ef50acf3d52a4e8a376f615ac4ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b271b2d0c3ffcd9cc10e1b3cbbf2e55') in 0.018883 seconds 
+  Import took 0.024356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait6.png
+  artifactKey: Guid(dacd41ae7bd50474a81b3fd731700c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait6.png using Guid(dacd41ae7bd50474a81b3fd731700c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d068a9c79808bb5217bdfbcf5cdcfe') in 0.018813 seconds 
+  Import took 0.023469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk6.png
+  artifactKey: Guid(8a66a493c6498fd4cb3597589129ceed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk6.png using Guid(8a66a493c6498fd4cb3597589129ceed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9990513a7aff5af95c04cc20f143c3') in 0.042099 seconds 
+  Import took 0.048515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWait2.png
+  artifactKey: Guid(efa78ca00d4bd7e45ba5318c0f0bc347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWait2.png using Guid(efa78ca00d4bd7e45ba5318c0f0bc347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e365113806d1cad8a77afdb7e849e454') in 0.019903 seconds 
+  Import took 0.024772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatWalk2.png
+  artifactKey: Guid(8a1cbee5cad8f004aac952eb79c6e53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatWalk2.png using Guid(8a1cbee5cad8f004aac952eb79c6e53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a0185aaecdc579d5faa1e4c995ae50') in 0.022640 seconds 
+  Import took 0.028300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.381691 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump6.png
+  artifactKey: Guid(3b0d867fc0ee6514cb4e74d1be3b5455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump6.png using Guid(3b0d867fc0ee6514cb4e74d1be3b5455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e9d89698e0d5aca5cce701152793b3') in 0.026177 seconds 
+  Import took 0.031282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatStart3.png
+  artifactKey: Guid(d37e82bcc3cd524488147b32c15d6a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatStart3.png using Guid(d37e82bcc3cd524488147b32c15d6a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb9f13405463bfc46fee93e5725b66e') in 0.021932 seconds 
+  Import took 0.027294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatStart2.png
+  artifactKey: Guid(8733e04abfd694a449d31578c4f35b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatStart2.png using Guid(8733e04abfd694a449d31578c4f35b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f6d7ec5bbe2a3ef4c138fd9dd66289') in 0.017978 seconds 
+  Import took 0.022919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint5.png
+  artifactKey: Guid(0b7802c29df44f94d98b88527159234c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint5.png using Guid(0b7802c29df44f94d98b88527159234c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8dbf0f2f81ddb9d1e3b6c35a6d447ba') in 0.016894 seconds 
+  Import took 0.021480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint2.png
+  artifactKey: Guid(b1439b60f315e484fa5b54c795e14bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint2.png using Guid(b1439b60f315e484fa5b54c795e14bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabe2a83a5df9e9db7e49d26b6dcc115') in 0.020006 seconds 
+  Import took 0.025058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003340 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint3.png
+  artifactKey: Guid(17de73eb3a1b20f4d806a93c6666adde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint3.png using Guid(17de73eb3a1b20f4d806a93c6666adde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b846ac37a6ac431633732bd38a67eb') in 0.025801 seconds 
+  Import took 0.031879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatStart1.png
+  artifactKey: Guid(164a40ab44aceca46a9e4df0610751d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatStart1.png using Guid(164a40ab44aceca46a9e4df0610751d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8446904c024f081b4d35693cbe4c5a') in 0.022213 seconds 
+  Import took 0.028132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint1.png
+  artifactKey: Guid(5740272d4fdd38f40ba97289b65774a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint1.png using Guid(5740272d4fdd38f40ba97289b65774a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5dfbd650f76c1698330cb2ecc2e5119') in 0.021434 seconds 
+  Import took 0.025985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint4.png
+  artifactKey: Guid(f012a752979ea7a42a6a3222f8cacafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint4.png using Guid(f012a752979ea7a42a6a3222f8cacafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30c72385eceab8b3176f47b9dedd706') in 0.023833 seconds 
+  Import took 0.028772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump6.png
+  artifactKey: Guid(3b0d867fc0ee6514cb4e74d1be3b5455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump6.png using Guid(3b0d867fc0ee6514cb4e74d1be3b5455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e9d89698e0d5aca5cce701152793b3') in 0.023725 seconds 
+  Import took 0.029800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatSprint6.png
+  artifactKey: Guid(2f700f3f881f025469538315fe1b1c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatSprint6.png using Guid(2f700f3f881f025469538315fe1b1c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c6c1162a828881240242923cf0933c') in 0.019080 seconds 
+  Import took 0.025521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.680146 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump4.png
+  artifactKey: Guid(1bd95a279b139d042b744b7584c4ae0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump4.png using Guid(1bd95a279b139d042b744b7584c4ae0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3c02966a8f62d52f10fc93e527760b') in 0.028320 seconds 
+  Import took 0.034144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000559 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump5.png
+  artifactKey: Guid(a7f654876c990674fb4a6cee95ab3f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump5.png using Guid(a7f654876c990674fb4a6cee95ab3f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4170a7fb47affa1cb3a0d0b901ef5d6e') in 0.021753 seconds 
+  Import took 0.026714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump4.png
+  artifactKey: Guid(1bd95a279b139d042b744b7584c4ae0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump4.png using Guid(1bd95a279b139d042b744b7584c4ae0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3c02966a8f62d52f10fc93e527760b') in 0.020043 seconds 
+  Import took 0.025636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.602033 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump1.png
+  artifactKey: Guid(c0bbada48467a444f87f033c2abc23c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump1.png using Guid(c0bbada48467a444f87f033c2abc23c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa3bd5f54e9be0e63ef651f1f21d11c') in 0.026857 seconds 
+  Import took 0.037064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump2.png
+  artifactKey: Guid(7ba67a773b4dcdc4cbe7b52298ab77a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump2.png using Guid(7ba67a773b4dcdc4cbe7b52298ab77a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37851f3bf78b6b5aa6b93a7fee1f6b66') in 0.018732 seconds 
+  Import took 0.023587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatJump3.png
+  artifactKey: Guid(bfa7ad4637d9b234cb997fe34171a6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatJump3.png using Guid(bfa7ad4637d9b234cb997fe34171a6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948ab7a6a5013a4f942d6437dc4fdc82') in 0.020872 seconds 
+  Import took 0.025782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050102 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie8.png
+  artifactKey: Guid(5ee6aa9ae5719704db5e06887850a47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie8.png using Guid(5ee6aa9ae5719704db5e06887850a47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1245d0ee5dc92785df13b09aef37876') in 0.021194 seconds 
+  Import took 0.030220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie9.png
+  artifactKey: Guid(9b5ed3e7c735f9b40974cbe4c3829998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie9.png using Guid(9b5ed3e7c735f9b40974cbe4c3829998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c98683e72d0c4dd2509d355e34e4a44') in 0.020333 seconds 
+  Import took 0.025391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Sprites/Ninja Cat Game Asset/CatDie10.png
+  artifactKey: Guid(ce234f3d85beacc41abb0e0fbe01ab40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Ninja Cat Game Asset/CatDie10.png using Guid(ce234f3d85beacc41abb0e0fbe01ab40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2eb7c2ee07b06b0020f2ddde5e2494') in 0.024486 seconds 
+  Import took 0.030016 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
