@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using System.Linq;
 
 /// <summary>
@@ -62,9 +63,26 @@ public class BaseEnemy : MonoBehaviour
     protected Collider2D hit;
 
     [Header("掉落道具資料：道具、機率")]
-    public GameObject goProp;
+    public GameObject goPropHp1;
+    public GameObject goPropHp2;
+    public GameObject goPropHp3;
+    public GameObject goPropAtk1;
+    public GameObject goPropAtk2;
+    public GameObject goPropAtk3;
     [Range(0, 1)]
-    public float propProbability = 1;
+    public float propProbability1 = 0.1f;
+    [Range(0, 1)]
+    public float propProbability2 = 0.2f;
+    [Range(0, 1)]
+    public float propProbability3 = 0.3f;
+    private float ProbabilityHp;
+    private float ProbabilityAtk;
+
+    [Header("怪物血條")]
+    public Image imgHp;
+    public RectTransform posHp;
+    public Vector3 v3HpOffset;
+    private float hpMax;
 
     #region 事件
     private void Start()
@@ -80,6 +98,8 @@ public class BaseEnemy : MonoBehaviour
         #region 初始值設定
         timeIdle = Random.Range(v2RandomIdle.x, v2RandomIdle.y);
         #endregion
+
+        hpMax = hp;
     }
     protected virtual void Update()
     {
@@ -92,7 +112,7 @@ public class BaseEnemy : MonoBehaviour
     }
     private void FixedUpdate()
     {
-
+        posHp.position = transform.position + v3HpOffset;
     }
 
     [Header("檢查前方是否有障礙物或地板球體")]
@@ -298,6 +318,7 @@ public class BaseEnemy : MonoBehaviour
     {
         hp -= damage;
         ani.SetTrigger("受傷觸發");
+        imgHp.fillAmount = hp / hpMax;
 
         if (hp <= 0) Dead();
     }
@@ -325,10 +346,24 @@ public class BaseEnemy : MonoBehaviour
     /// </summary>
     private void DropProp()
     {
+        ProbabilityHp = Random.value;
+        ProbabilityAtk = Random.value;
+
         // 生成(物件,座標,角度)
         // Quaternion.identity 零角度 = Vector3.zero
-        if (Random.value <= propProbability)
-            Instantiate(goProp, transform.position + Vector3.up * 1.5f, Quaternion.identity);
+        if (ProbabilityHp <= propProbability1)
+            Instantiate(goPropHp1, transform.position + Vector3.up * 1.5f, Quaternion.identity);
+        else if (ProbabilityHp <= propProbability1 + propProbability2)
+            Instantiate(goPropHp2, transform.position + Vector3.up * 1.5f, Quaternion.identity);
+        else if (ProbabilityHp <= propProbability1 + propProbability2 + propProbability3)
+            Instantiate(goPropHp3, transform.position + Vector3.up * 1.5f, Quaternion.identity);
+
+        if (ProbabilityAtk <= propProbability1)
+            Instantiate(goPropAtk1, transform.position + Vector3.up * 1.5f, Quaternion.identity);
+        else if (ProbabilityAtk <= propProbability1 + propProbability2)
+            Instantiate(goPropAtk2, transform.position + Vector3.up * 1.5f, Quaternion.identity);
+        else if (ProbabilityAtk <= propProbability1 + propProbability2 + propProbability3)
+            Instantiate(goPropAtk3, transform.position + Vector3.up * 1.5f, Quaternion.identity);
     }
     #endregion
 }

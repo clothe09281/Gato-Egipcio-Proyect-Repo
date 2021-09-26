@@ -6,9 +6,9 @@ public class Player : MonoBehaviour
 {
     #region 欄位
     [Header("移動速度"), Range(0, 1000)]
-    public float speed = 300.0f;
+    public float speed = 500.0f;
     [Header("跳躍高度"), Range(0, 3000)]
-    public int jump = 1200;
+    public int jump = 500;
     [Header("血量"), Range(0, 200)]
     public float hp = 100;
     [Header("是否在地板上"), Tooltip("用來儲存角色是否在地板上的資訊，在地板上 true，不在地板上 false")]
@@ -270,12 +270,35 @@ public class Player : MonoBehaviour
     {
         switch (propName)
         {
-            case "蘋果":
+            case "聖十字紅小":
                 Destroy(goPropHit);                 // 刪除(物件,延遲時間)
                 hp += 10;
                 hp = Mathf.Clamp(hp, 0, hpMax);     // 更新介面
                 textHp.text = "Hp" + hp;
                 imgHp.fillAmount = hp / hpMax;
+                break;
+            case "聖十字紅中":
+                Destroy(goPropHit);
+                hp += 20;
+                hp = Mathf.Clamp(hp, 0, hpMax);
+                textHp.text = "Hp" + hp;
+                imgHp.fillAmount = hp / hpMax;
+                break;
+            case "聖十字紅大":
+                Destroy(goPropHit);
+                hp += 30;
+                hp = Mathf.Clamp(hp, 0, hpMax);
+                textHp.text = "Hp" + hp;
+                imgHp.fillAmount = hp / hpMax;
+                break;
+            case "聖甲蟲(紅大)":
+                Destroy(goPropHit);
+                break;
+            case "聖甲蟲(紅中)":
+                Destroy(goPropHit);
+                break;
+            case "聖甲蟲(紅小)":
+                Destroy(goPropHit);
                 break;
             default:
                 break;
