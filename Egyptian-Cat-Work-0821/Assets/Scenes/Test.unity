@@ -1804,7 +1804,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   puzzlename: position
-  fragment: []
+  fragment:
+  - {fileID: 492327306}
+  - {fileID: 864294654}
+  - {fileID: 1777233025}
+  - {fileID: 1924807776}
+  - {fileID: 679217949}
+  - {fileID: 131546802}
+  - {fileID: 988003428}
+  - {fileID: 1895299916}
+  - {fileID: 11871113}
   isClicked: 0
 --- !u!4 &1606305101
 Transform:

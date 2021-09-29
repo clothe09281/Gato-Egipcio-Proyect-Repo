@@ -52,7 +52,7 @@ public class Puzzle : MonoBehaviour
             isClicked = true;
             target = GameObject.Find(other.gameObject.name);
             oldposition = other.transform.position;
-            puzzlename = "position_" + other.gameObject.name[8];
+            puzzlename = "pos_" + other.gameObject.name[6];
         }
     }
 }
